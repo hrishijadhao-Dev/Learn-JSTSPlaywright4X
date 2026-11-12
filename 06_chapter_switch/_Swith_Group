@@ -1,0 +1,21 @@
+let browser = "Safari";
+
+switch (browser) {
+    case "Chrome":
+    case "Edge":
+    case "Brave":
+    case"Opera":
+        console.log("You are using a Chromium-based browser.");
+        break;      
+
+    case "Firefox":
+        console.log("You are using Mozilla- based Browser.");
+        break;
+
+    case "Safari":
+        console.log("You are using Apple Safari Browser.");
+        break;  
+
+    default:
+        console.log("Your browser is not supported.");
+}
